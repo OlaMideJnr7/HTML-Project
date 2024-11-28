@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Porfolio Web Page</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about-me">About</a>
+            <a href="#work">Work</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact-me">Contact</a>
+        </div>
+    </nav><br>
+    <div>
+        <audio src="hidden.mp3" controls></audio>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to My Portfolio Web Page</h1>    
+        <p>This is a simple portfolio web page just to practice and learn my HTML skills</p>
+    </section>    
+
+    <!-- About Section -->
+     <section id="about-me">
+        <h2>About Me</h2>
+        <p>I'm an aspiring web developer who trying to create responsive web page</p>
+        <p>Also exploring new technologies and more creativity</p>
+     </section>
+     
+     <!-- Work Section -->
+      <section id="work">
+       <h2>Work</h2>
+        <p>Some of my recent project</p>
+        <ul>
+            <li>No project list yet</li>
+        </ul>
+      </section>
+      
+      <!-- Resume Section -->
+       <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume: <a href="#" download="Resume.pdf">Click here</a></p>
+       </section>
+
+       <!-- Contact Section -->
+        <section id="contact-me">
+            <h2>Contact Me</h2>
+            <p>If you find my Portfolio interesting and you would like to reach out, kindly fill out the form below:</p>
+            <form action="/submit">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>    
+            </form>
+        </section>
+        <footer>
+            <div>
+                <p>&copy; My Portfolio Web Page 2024</p> 
+                <a href="http://facebook.com/Onajobi Ayomide" target="_blank">Facebook</a>   
+            </div>
+        </footer>    
+</body>
+</html>
